@@ -41,7 +41,7 @@ img {
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1200px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -748,7 +748,6 @@ header.header-scroll {
   display: -ms-flexbox;
   display: flex;
   gap: 32px;
-  max-width: 1440px;
 }
 @media screen and (max-width: 1024px) {
   .advantages .container {
@@ -987,7 +986,6 @@ header.header-scroll {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  max-width: 1440px;
   padding: 0;
 }
 @media screen and (max-width: 600px) {
@@ -1092,7 +1090,6 @@ header.header-scroll {
   z-index: -1;
 }
 .local .container {
-  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1199,7 +1196,6 @@ header.header-scroll {
   padding: 64px 32px;
 }
 .callAction .container {
-  max-width: 1200px;
   background-color: var(--darkblue);
   border-top: 5px solid var(--accent-color);
   padding: 45px;
@@ -1337,9 +1333,6 @@ header.header-scroll {
     right: -800px;
   }
 }
-.works .container {
-  max-width: 1440px;
-}
 .works .wokrs-list {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1413,7 +1406,6 @@ header.header-scroll {
   display: -ms-flexbox;
   display: flex;
   gap: 60px;
-  max-width: 1440px;
 }
 @media screen and (max-width: 970px) {
   .steps .container {
@@ -1571,9 +1563,6 @@ header.header-scroll {
     font-size: 18px;
     border: 5px solid #c7d3e8;
   }
-}
-.reviews .container {
-  max-width: 1440px;
 }
 .faq {
   padding: 0;

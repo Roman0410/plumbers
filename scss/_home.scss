@@ -3,7 +3,7 @@
   .container {
     display: flex;
     gap: 32px;
-    max-width: 1440px;
+
     @media screen and (max-width: 1024px) {
       flex-direction: column;
     }
@@ -189,7 +189,7 @@
   padding: 0;
   .container {
     display: flex;
-    max-width: 1440px;
+
     padding: 0;
     @media screen and (max-width: 600px) {
       flex-direction: column;
@@ -275,7 +275,6 @@
     z-index: -1;
   }
   .container {
-    max-width: 1440px;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -366,7 +365,6 @@
 .callAction {
   padding: 64px 32px;
   .container {
-    max-width: 1200px;
     background-color: var(--darkblue);
     border-top: 5px solid var(--accent-color);
     padding: 45px;
@@ -467,7 +465,6 @@
     }
   }
   .container {
-    max-width: 1440px;
   }
   .section-title {
   }
@@ -531,7 +528,7 @@
   .container {
     display: flex;
     gap: 60px;
-    max-width: 1440px;
+
     @media screen and (max-width: 970px) {
       flex-direction: column-reverse;
     }
@@ -662,7 +659,6 @@
 }
 .reviews {
   .container {
-    max-width: 1440px;
   }
   .section-title {
   }
