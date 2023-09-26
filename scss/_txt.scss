@@ -1,0 +1,71 @@
+.text {
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+  }
+  @media screen and (max-width: 550px) {
+    font-size: 15px;
+  }
+}
+.stext {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.section-title {
+  color: #000249;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding-bottom: 8px;
+  border-bottom: 3px solid #cde3fb;
+  width: fit-content;
+  margin-bottom: 41px;
+  @media screen and (max-width: 768px) {
+    font-size: 36px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 32px;
+  }
+}
+.card-title {
+  color: #000249;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  @media screen and (max-width: 768px) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: 450px) {
+    font-size: 16px;
+  }
+}
+.item-title {
+  color: #000249;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.background-text {
+  color: var(--back);
+  font-family: Inter;
+  font-size: 140px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+}
