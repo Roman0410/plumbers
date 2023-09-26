@@ -680,6 +680,7 @@
     }
   }
   .left {
+    padding: 80px 0;
     width: 40%;
     position: relative;
     @media screen and (max-width: 744px) {
@@ -689,10 +690,8 @@
   }
   .card {
     padding: 32px 56px;
-    position: absolute;
     left: 20px;
     top: 50%;
-    transform: translateY(-50%);
     width: 150%;
     background-color: #fff;
     border-top: 5px solid var(--accent-color);
@@ -705,7 +704,7 @@
       position: static;
       width: 90%;
       transform: translateX(0%);
-      margin: -100px auto 0;
+      margin: -200px auto 0;
     }
   }
   .section-title {
@@ -775,7 +774,6 @@
   }
   .right {
     width: 60%;
-    height: 80vh;
     background-position: center;
     background-size: cover;
     @media screen and (max-width: 744px) {
