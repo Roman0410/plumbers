@@ -587,6 +587,7 @@ header.header-scroll {
 }
 .footer .container {
   padding: 0;
+  max-width: 100%;
 }
 .footer .top {
   display: -webkit-box;
