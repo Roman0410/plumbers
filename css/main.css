@@ -761,6 +761,16 @@ header.header-scroll {
   background-color: #fff;
   z-index: 1;
 }
+@media screen and (max-width: 768px) {
+  .fix-info {
+    width: 50px;
+    height: 50px;
+    bottom: 115px;
+  }
+  .fix-info img {
+    width: 28px;
+  }
+}
 .fix-info img {
   max-width: 35px;
 }
@@ -787,6 +797,15 @@ header.header-scroll {
   z-index: 1;
   -webkit-animation: hoverWave linear 1.5s infinite;
   animation: hoverWave linear 1.5s infinite;
+}
+@media screen and (max-width: 768px) {
+  .fix-tel {
+    width: 50px;
+    height: 50px;
+  }
+  .fix-tel img {
+    width: 28px;
+  }
 }
 
 .advantages {
