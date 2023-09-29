@@ -53,7 +53,7 @@
               <li class="nav-item">
                 <a href="index.html" class="nav-link">Home</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item current">
                 <p class="nav-link">
                   Services <img src="img/axpendArrow.svg" alt="" />
                 </p>
@@ -94,73 +94,89 @@
         </div>
       </div>
     </header>
-    <section class="page-hero">
-      <img class="backImg" src="./img/herolocal.jpeg" alt="" />
-      <div class="background"></div>
+    <section
+      class="hero"
+      style="
+        background-image: linear-gradient(
+            23deg,
+            rgba(14, 44, 111, 0.8) 21%,
+            rgba(15, 66, 145, 0.8) 21%,
+            rgba(15, 66, 145, 0.8) 80%,
+            rgba(14, 44, 111, 0.8) 80%
+          ),
+          url('./img/hero-background.jpeg');
+      "
+    >
+      <img class="hourWorks" src="./img/24-7.svg" alt="" />
+      <img class="photo" src="./img/workerman.png" alt="" />
       <div class="container">
         <div class="card">
-          <h2 class="section-title">
-            <img src="./img/locationFFF.svg" alt="" />
-            Addison, texas
-          </h2>
-          <div class="card-title">
-            Lorem Ipsum is not simply random text. It has roots in a piece of
-            classical Latin literature from 45 BC
-          </div>
-          <p class="text">
+          <h1 class="hero-title">SUMP PUMP REPAIR BURST</h1>
+          <p class="card-title">
             Lorem Ipsum is not simply random text. It has roots in a piece of
             classical Latin literature from 45 BC, making it over 2000 years
-            old.Lorem Ipsum is not simply random text. It has roots in a piece
-            of classical Latin literature from 45 BCLorem Ipsum is not simply
-            random text. It has roots in a piece of classical Latin literature
-            from 45 BC, making it over 2000 years old.
+            old.
           </p>
           <a href="#" class="btn">Get free quote</a>
         </div>
       </div>
     </section>
-    <section class="about-location">
-      <img class="backImg" src="./img/herolocal.jpeg" alt="" />
-      <div class="background"></div>
-      <img class="cap" src="./img/backcap.svg" alt="" />
+    <section class="description">
       <div class="container">
-        <div class="card pad">
-          <h2 class="section-title">
-            <img src="./img/local000.svg" alt="" />
-            Plumbing services addison
-          </h2>
-          <p class="card-title">
-            Lorem Ipsum is not simply random text. It has roots in a piece of
-            classical Latin literature from 45 BC
-          </p>
-          <ul>
-            <li>Lorem Ipsum is not simply random text.</li>
-            <li>
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
-            </li>
-            <li>
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
-            </li>
-            <li>
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
-            </li>
-            <li>
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
-            </li>
-            <li>
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
-            </li>
-          </ul>
-          <p class="card-title red">
-            Lorem Ipsum is not simply random text. It has roots in a piece of
-            classical Latin literature from 45 BC
-          </p>
+        <h2 class="section-title">
+          <img src="./img/info.svg" alt="" />
+          Service description
+        </h2>
+      </div>
+      <div class="top col">
+        <div
+          class="left img"
+          style="background-image: url('./img/descrPhoto1.jpeg')"
+        ></div>
+        <div class="right">
+          <div class="card">
+            <p class="card-title">
+              Lorem Ipsum is not simply random text. It has roots in a piece of
+              classical Latin literature from 45 BC
+            </p>
+            <p class="text">
+              Lorem Ipsum is not simply random text. It has roots in a piece of
+              classical Latin literature from 45 BC, making it over 2000 years
+              old.Lorem Ipsum is not simply random text. It has roots in a piece
+              of classical Latin literature from 45 BCLorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC, making it over 2000 years old.Lorem Ipsum is not
+              simply random text. It has roots in a piece of classical Latin
+              literature from It has roots in a piece of classical Latin
+              literature from 45 BC, making it over 2000 years old.Lorem Ipsum
+            </p>
+          </div>
         </div>
+      </div>
+      <div class="botoom col">
+        <div class="left">
+          <div class="card">
+            <p class="card-title">
+              Lorem Ipsum is not simply random text. It has roots in a piece of
+              classical Latin literature from 45 BC
+            </p>
+            <p class="text">
+              Lorem Ipsum is not simply random text. It has roots in a piece of
+              classical Latin literature from 45 BC, making it over 2000 years
+              old.Lorem Ipsum is not simply random text. It has roots in a piece
+              of classical Latin literature from 45 BCLorem Ipsum is not simply
+              random text. It has roots in a piece of classical Latin literature
+              from 45 BC, making it over 2000 years old.Lorem Ipsum is not
+              simply random text. It has roots in a piece of classical Latin
+              literature from It has roots in a piece of classical Latin
+              literature from 45 BC, making it over 2000 years old.Lorem Ipsum
+            </p>
+          </div>
+        </div>
+        <div
+          class="right img"
+          style="background-image: url('./img/descrPhoto2.jpeg')"
+        ></div>
       </div>
     </section>
     <section class="beforeAfter">
@@ -376,52 +392,30 @@
         </div>
       </div>
     </section>
-    <section class="other-location">
+    <section class="other-service">
       <img class="backImg" src="./img/backcap.svg" alt="" />
       <div class="container">
         <h2 class="section-title">
-          <img src="./img/build.svg" alt="" /> Other location we provide
+          <img src="./img/build.svg" alt="" />
+          Other service we provide
         </h2>
-        <div class="services-slider">
-          <a href="#" class="slide">
-            <img src="./img/city.jpeg" alt="" />
-            <div class="card">
-              <p class="card-title">Bloomingdale</p>
-              <p class="stext">Frozen pipe repair</p>
-            </div>
+        <div class="services-list">
+          <a href="servicePage.html" class="services-item">
+            <img src="./img/descrPhoto1.jpeg" alt="" />
+            <p class="card-title">Drain Cleaning & Repair</p>
           </a>
-          <a href="#" class="slide">
-            <img src="./img/city.jpeg" alt="" />
-            <div class="card">
-              <p class="card-title">Bloomingdale</p>
-              <p class="stext">Frozen pipe repair</p>
-            </div>
+          <a href="servicePage.html" class="services-item">
+            <img src="./img/descrPhoto1.jpeg" alt="" />
+            <p class="card-title">Drain Cleaning & Repair</p>
           </a>
-          <a href="#" class="slide">
-            <img src="./img/city.jpeg" alt="" />
-            <div class="card">
-              <p class="card-title">Bloomingdale</p>
-              <p class="stext">Frozen pipe repair</p>
-            </div>
+          <a href="servicePage.html" class="services-item">
+            <img src="./img/descrPhoto1.jpeg" alt="" />
+            <p class="card-title">Drain Cleaning & Repair</p>
           </a>
-          <a href="#" class="slide">
-            <img src="./img/city.jpeg" alt="" />
-            <div class="card">
-              <p class="card-title">Bloomingdale</p>
-              <p class="stext">Frozen pipe repair</p>
-            </div>
+          <a href="servicePage.html" class="services-item">
+            <img src="./img/descrPhoto1.jpeg" alt="" />
+            <p class="card-title">Drain Cleaning & Repair</p>
           </a>
-          <a href="#" class="slide">
-            <img src="./img/city.jpeg" alt="" />
-            <div class="card">
-              <p class="card-title">Bloomingdale</p>
-              <p class="stext">Frozen pipe repair</p>
-            </div>
-          </a>
-        </div>
-        <div class="slider-navigation">
-          <div class="prev"><img src="./img/prew.svg" alt="" /></div>
-          <div class="next"><img src="./img/next.svg" alt="" /></div>
         </div>
       </div>
     </section>
