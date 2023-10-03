@@ -959,12 +959,16 @@
     @media screen and (max-width: 500px) {
       padding: 24px;
     }
+
     position: relative;
     .hour {
       right: 40px;
       bottom: 40px;
       max-width: 73px;
       position: absolute;
+    }
+    .text {
+      color: #fff;
     }
   }
   .section-title {
@@ -1513,6 +1517,354 @@
     @media screen and (max-width: 600px) {
       max-width: 70px;
     }
+  }
+}
+
+.beforeAfter-table {
+  overflow: hidden;
+  position: relative;
+  .backImg {
+    position: absolute;
+    left: 0;
+    top: 30%;
+  }
+  .background {
+    position: absolute;
+    width: 80%;
+    height: 50%;
+    background-color: var(--back);
+    z-index: -1;
+    right: -60%;
+    top: 20%;
+    transform: skew(50deg) rotate(-10deg);
+  }
+  .background1 {
+    position: absolute;
+    width: 80%;
+    height: 80%;
+    background-color: var(--back);
+    left: 0px;
+    bottom: 0px;
+    transform: rotate(-50deg) translate(-80%);
+    z-index: -1;
+  }
+  .container {
+  }
+  .section-title {
+  }
+  .list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .item {
+    width: calc((100% - 24px) / 2);
+    height: 472px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all 0.1s linear;
+    &:hover {
+      box-shadow: 0px 4px 17px 0px rgba(30, 45, 68, 0.33);
+      .card-title {
+        background-color: #fff;
+        color: var(--blue);
+      }
+    }
+    @media screen and (max-width: 768px) {
+      height: 300px;
+    }
+    @media screen and (max-width: 600px) {
+      width: 100%;
+    }
+  }
+  .card-title {
+    position: absolute;
+    bottom: 0;
+    padding: 32px;
+    width: 90%;
+    background-color: var(--blue);
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.1s linear;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 24px;
+    }
+  }
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 74px;
+  .pagination-list {
+    display: flex;
+    gap: 18px;
+  }
+  .pag-item {
+    padding: 0;
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  .btn {
+  }
+}
+
+.error {
+  position: relative;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  .backgeound {
+    position: absolute;
+    left: -10%;
+    top: 0;
+    width: 1000px;
+    height: 80%;
+    z-index: -1;
+    transform: skew(40deg) rotate(10deg);
+    background-color: var(--back);
+  }
+  .backgeound1 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1000px;
+    height: 1000px;
+    z-index: -1;
+    transform: rotate(-45deg) translate(90%);
+    background-color: var(--back);
+  }
+  .errortxt {
+    color: #ed3537;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .num {
+    color: #222226;
+    text-align: center;
+    font-size: 96px;
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+  .card-title {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #000;
+  }
+  .btn {
+    max-width: 282px;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
+
+.blog-table {
+  @media screen and (max-width: 768px) {
+    padding-top: 10px;
+  }
+  .background {
+  }
+  .container {
+  }
+  .blog-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .blog-item {
+    padding: 24px;
+    width: calc((100% - 24px) / 2);
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    @media screen and (max-width: 744px) {
+      width: 100%;
+    }
+    img:not(.btn img) {
+      height: 240px;
+      object-fit: cover;
+      @media screen and (max-width: 500px) {
+        height: 161px;
+      }
+    }
+  }
+  .pad {
+  }
+  .title {
+    color: #222226;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+    &::after {
+      content: "";
+      height: 3px;
+      width: 75%;
+      background-color: var(--accent-color);
+      display: block;
+      margin-top: 8px;
+    }
+  }
+  .info {
+    color: #a0a0a0;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .text {
+    font-size: 20px;
+    color: #222226;
+  }
+  .btn:not(.pagination .btn) {
+    background-color: var(--darkblue);
+    width: fit-content;
+    margin-top: 8px;
+  }
+  .pagination {
+  }
+  .pagination-list {
+  }
+  .pag-item {
+  }
+  .red {
+  }
+}
+
+.blog-hero {
+  .container {
+  }
+  .section-title {
+    color: #fff;
+    border: none;
+    font-size: 56px;
+    margin-bottom: 16px;
+  }
+  .text {
+    color: #fff;
+  }
+}
+
+.blog-body {
+  padding: 0;
+  .cat {
+    padding: 40px 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .blog-title {
+      font-family: Inter;
+      font-size: 32px;
+      font-weight: 700;
+    }
+  }
+  .white {
+    .blog-title {
+      color: #ed3537;
+    }
+    .text {
+    }
+  }
+
+  .blue {
+    background-color: var(--blue);
+    .blog-title {
+      color: #fff;
+    }
+    .text {
+      color: #fff;
+    }
+  }
+}
+
+.contact-hero {
+  background-size: cover;
+  background-position: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .left {
+  }
+  .hero-title {
+  }
+  .card-title {
+    margin-top: 16px;
+    font-weight: 400;
+    text-transform: none;
+    color: #fff;
+  }
+  .right {
+  }
+}
+
+.contacts {
+  padding-top: 100px;
+  .container {
+  }
+  .contacts-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    @media screen and (max-width: 768px) {
+      gap: 100px;
+    }
+  }
+  .contact-item {
+    background-color: var(--blue);
+    position: relative;
+    width: calc((100% - 48px) / 3);
+    padding: 40px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  .icon {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    top: -70px;
+    height: 90px;
+    width: 90px;
+    border: 4px solid var(--accent-color);
+    border-radius: 50%;
+    background-color: var(--blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .title {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 3px solid #1394e8;
+    padding-bottom: 8px;
+  }
+  .link {
+    color: #fff;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    margin-top: 16px;
+    word-break: break-all;
   }
 }
 
