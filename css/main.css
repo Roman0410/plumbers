@@ -803,7 +803,7 @@ header.header-scroll {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #fff;
-  z-index: 1;
+  z-index: 10;
 }
 @media screen and (max-width: 768px) {
   .fix-info {
@@ -838,7 +838,7 @@ header.header-scroll {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: var(--accent-color);
-  z-index: 1;
+  z-index: 10;
   -webkit-animation: hoverWave linear 1.5s infinite;
   animation: hoverWave linear 1.5s infinite;
 }
@@ -3261,4 +3261,79 @@ header.header-scroll {
 }
 .partners .slick-dots {
   bottom: 38px;
+}
+.home-hero {
+  height: calc(100vh - 121px);
+  position: relative;
+}
+.home-hero .swiper {
+  height: 95%;
+}
+.home-hero .swiper-slide {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.home-hero .container {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.home-hero .card {
+  width: 100%;
+  max-width: 710px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+  margin-bottom: 60px;
+}
+.home-hero .card-title {
+  color: #fff;
+  font-weight: 400;
+}
+.home-hero .btn {
+  width: 100%;
+  max-width: 280px;
+}
+.home-hero .heroPngImg {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+}
+.swipernav {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+}
+.swipernav .swiper-slide {
+  -webkit-box-shadow: 0px 4px 17px 0px rgba(30, 45, 68, 0.33);
+          box-shadow: 0px 4px 17px 0px rgba(30, 45, 68, 0.33);
+}
+.swipernav .swiper-slide img {
+  width: 100%;
+  height: 110px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.swipernav .card-title {
+  background-color: #fff;
+  color: var(--blue);
+  padding: 12px;
+  font-size: 17px;
+  border-bottom: 4px solid var(--blue);
+}
+.swipernav .swiper-slide-active .card-title {
+  color: var(--accent-color);
+  border-bottom: 4px solid var(--accent-color);
 }

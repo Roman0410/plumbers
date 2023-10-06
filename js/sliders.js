@@ -94,3 +94,8 @@ $(".partners-slider").slick({
     },
   ],
 });
+
+// $(".swiper-wrapper").slick({
+//   slidesToShow: 1,
+//   arrows: false,
+// });
